@@ -1,0 +1,8 @@
+//
+// Created by Kely Gbedemah on 11/22/26.
+//
+
+#ifndef CARPETCALCULATOR_FEETINCHES_H
+#define CARPETCALCULATOR_FEETINCHES_H
+
+#endif //CARPETCALCULATOR_FEETINCHES_H
