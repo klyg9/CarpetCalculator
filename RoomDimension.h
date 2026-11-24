@@ -9,6 +9,11 @@
 
 class RoomDimension {
     private:
+
+    // Composition: RoomDimension owns its FeetInches objects.
+    // Length and width are stored directly inside the room.
+    // They are destroyed when the RoomDimension object is destroyed.
+
     FeetInches length;
     FeetInches width;
 public:

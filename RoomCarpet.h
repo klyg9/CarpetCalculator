@@ -9,6 +9,10 @@
 
 class RoomCarpet {
     private:
+
+    // Composition: RoomCarpet owns its RoomDimension object.
+    // The room data is copied and lives as long as RoomCarpet.
+
     RoomDimension room;
     double costPerSquareFoot;
     public:

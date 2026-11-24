@@ -34,7 +34,7 @@ int main() {
         return 1;
         }
 
-    if (carpetPrice < 0 ) {
+    if (carpetPrice <= 0 ) {
         std::cerr << "Error: Carpet price must be greater than zero."
         << std::endl;
         return 1;
@@ -61,10 +61,6 @@ int main() {
     std::cout << "Total carpet cost: $"
               << carpet.getTotalCost() << std::endl;
 
-
-    std::cout << "Carpet Calculator Project" <<std::endl;
-
-
     FeetInches original(5, 6);
     FeetInches copied(original);
 
@@ -79,9 +75,22 @@ int main() {
 
     double testArea = testLength * testWidth;
 
+
+    std::cout << "Length after multiplication: "
+              << testLength << std::endl;
+
+    std::cout << "Width after multiplication: "
+              << testWidth << std::endl;
+
+
     std::cout << "Multiplication test: "
               << testArea << " square feet" << std::endl;
 
+
+    FeetInches normalized(5, 14);
+
+    std::cout << "Normalization test: "
+              << normalized << std::endl;
 
 
     return 0;
